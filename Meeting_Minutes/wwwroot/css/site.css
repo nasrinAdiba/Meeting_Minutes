@@ -1,0 +1,292 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+/*@media (min-width: 768px) body {
+    font-size: .875rem;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Fira Sans,Helvetica Neue,Apple Color Emoji,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #363642;
+    text-align: left;
+    background-color: #f6f7f9;
+}*/
+
+/*:root {
+    --blue: #0179a8;
+    --indigo: #346cb0;
+    --purple: #5f4b8b;
+    --pink: #b76ba3;
+    --red: #ea6759;
+    --orange: #ec935e;
+    --yellow: #f7c46c;
+    --green: #a7c796;
+    --teal: #00a28a;
+    --cyan: #3686a0;
+    --white: #fff;
+    --gray: #888c9b;
+    --gray-dark: #222230;
+    --primary: #346cb0;
+    --secondary: #f6f7f9;
+    --success: #00a28a;
+    --info: #0179a8;
+    --warning: #f7c46c;
+    --danger: #b76ba3;
+    --light: #f6f7f9;
+    --dark: #222230;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Fira Sans","Helvetica Neue","Apple Color Emoji",sans-serif;
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(20,20,31,0);
+}*/
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #f7c46c;
+    color: #363642;
+    text-shadow: none;
+}
+/*
+.form-check {
+    margin-bottom: 0.5rem;
+}
+
+.mt-1, .my-1 {
+    margin-top: 0.384615rem !important;
+}
+
+.form-check {
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
+}
+
+@media (min-width: 576px)
+.col-sm-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+
+}*/
+
+element.style {
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(20,20,31,.12);
+    border-radius: 0.25rem;
+}
+.custom-radio{
+    padding: 20px 0 20px 20px;
+}
+/*.border-bottom{
+    
+    padding-bottom: 20px;
+}*/
+
+.product{
+    margin-top: 15px;
+    padding: 20px;
+}
+
+
+    .product .btn{
+        width: 85px;
+        height: 35px;
+    }
+    .unit {
+        flex: auto;
+        align-items: flex-start;
+    }
+
+    
+        .list .table {
+            height: 300px;
+        }
+element.style {
+}
+
+/*.datetimepicker .input-group-append > button > i {
+    vertical-align: middle;
+}
+
+.mdi {
+    display: inline-block;
+    font: normal normal normal 14px/1 'Material Icons';
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+i {
+    font-style: italic;
+}
+
+.datetimepicker .input-group-append > button {
+    padding: 0 13px;
+    font-size: 1.846rem;
+    line-height: 23px;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+
+.btn {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.05);
+    box-shadow: 0 1px 0 rgba(0,0,0,.05);
+    padding: 0 10px;
+    font-size: 1rem;
+    line-height: 28px;
+    border-radius: 2px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 700;
+    color: #404040;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.7692rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.428571;
+    border-radius: 2px;
+    -webkit-transition: none;
+    transition: none;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+user agent stylesheet
+button {
+    font-style:;
+    font-variant-ligatures:;
+    font-variant-caps:;
+    font-variant-numeric:;
+    font-variant-east-asian:;
+    font-variant-alternates:;
+    font-variant-position:;
+    font-weight:;
+    font-stretch:;
+    font-size:;
+    font-family:;
+    font-optical-sizing:;
+    font-kerning:;
+    font-feature-settings:;
+    font-variation-settings:;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    cursor: default;
+}
+
+.datetimepicker {
+    padding: 4px;
+    margin-top: 1px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    direction: ltr;
+}*/
+
+/*.form-floating > .bi-calendar-date + .datepicker_input + label {
+    padding-left: 3.5rem;
+    z-index: 3;
+}*/
